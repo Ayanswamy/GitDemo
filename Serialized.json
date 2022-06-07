@@ -1,0 +1,64 @@
+{
+  "SeviceItems": {
+    "priority": 1,
+    "category": "B2B",
+    "orderCharacteristic": {
+      "orderCharacteristic": [
+        {
+          "name": "ORDERTYPE",
+          "value": "Old",
+          "valueType": "string"
+        },
+        {
+          "name": "ORDERSUBTYPE",
+          "value": "New",
+          "valueType": "string"
+        }
+      ]
+    },
+    "orderRelationship": {
+      "orderRelationship": {
+        "id": 67890,
+        "relationshipType": "crossref",
+        "@referredType": "productorder"
+      }
+    },
+    "serviceOrderItem": {
+      "serviceOrderItem": {
+        "id": 1,
+        "action": "add",
+        "state": "Closed",
+        "service": {
+          "id": 1,
+          "name": "Tp_Prepaid_DT",
+          "serviceType": "Postpaid",
+          "serviceCharacteristic": {
+            "serviceCharacteristic": [
+              {
+                "name": "LanguageId",
+                "value": "ARA",
+                "valueType": "string"
+              },
+              {
+                "name": "servicecategory",
+                "value": "voice",
+                "valueType": "string"
+              }
+            ]
+          }
+        },
+        "product": {
+          "id": "1-VILZ",
+          "name": "prepaid voice sawa",
+          "productCharacteristic": {
+            "productCharacteristic": {
+              "name": "ProductType",
+              "value": "Postpaid-CS4",
+              "valueType": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
